@@ -22,3 +22,7 @@
    - **Update User Info**: User dc phép update thông tin: `name`, `gender`, `birthday`
 
    **Note**: để đảm bảo bảo mật thì khi lưu `password` vào db thì phải làm như thế nào hãy tìm hiểu thử.
+
+3. **Tạo postman collection**:
+
+   Để giúp dễ test hơn thì anh cần em tạo 1 collection trên postman và khi xong task có thể gởi cho.
