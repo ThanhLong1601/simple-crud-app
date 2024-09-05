@@ -3,6 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Product = require("./models/product.model.js");
 const productRoute = require("./routes/product.route.js");
+const userRoute = require("./routes/user.router.js");
 const app = express();
 
 // middleware
@@ -11,6 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // routes
 app.use("/api/products", productRoute);
+app.use("/api/users", userRoute);
 
 app.get("/", (req, res) => {
   res.send("Hello from Node API server Update");
