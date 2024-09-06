@@ -16,7 +16,8 @@
     "express": "^4.19.2",
     "mongodb": "^6.8.0",
     "mongoose": "^8.6.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "simple-crud-app": "file:"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
