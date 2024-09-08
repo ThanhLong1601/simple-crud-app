@@ -26,3 +26,13 @@
 3. **Tạo postman collection**:
 
    Để giúp dễ test hơn thì anh cần em tạo 1 collection trên postman và khi xong task có thể gởi cho.
+
+## 9 Sep 2024
+
+1.  Sau khi đã làm chức năng login thì hãy thử suy nghĩ xem những hành động nào nào là bắt buộc user chỉ có thể thực hiện sau khi đã login. Nghĩa là phải có xác thực (auth)
+
+2.  Từ các actions đã tìm dc từ (1) hãy update lại code để mỗi khi user gọi các api liên quan tới các action đó thì phải dc xác thực rằng user đó đã login và phiên làm việc đó vẫn còn hiệu lực.
+
+3.  Update lại việc tạo product: mỗi khi 1 product dc tạo ra phải có thông tin người tạo.
+
+4.  Update lai việc lấy thông tin product ở list và detail product phải có thêm tên người tạo (author)
